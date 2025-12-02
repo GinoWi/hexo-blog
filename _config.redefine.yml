@@ -1,0 +1,24 @@
+info:
+  title: Gino Detox
+  subtitle: 个人博客
+  author: Gino Wi
+  url: codeord.com
+defaults: 
+  avatar: /images/avatar.jpeg
+colors:
+  primary: #00BFFF
+global:
+  chinese:
+    enable: true
+    family: Noto Sans SC
+  hover:
+    scale: true
+  scorll_progress:
+    bar: true
+fontawesome: # select fontawesome versions you want to use, in order to reduce the loading time, select as few as possible
+    thin: false # use fontawesome thin version or not
+    light: false # use fontawesome light version or not
+    duotone: false # use fontawesome duotone version or not
+    sharp_solid: false # use fontawesome sharp-solid version or not
+home_banner:
+    title: Gino Detox
