@@ -1,7 +1,7 @@
 info:
   title: Gino Detox
   subtitle: 个人博客
-  author: Gino Wi
+  author: Gino Wei
   url: codeord.com
 defaults: 
   avatar: /images/avatar.jpeg
@@ -15,10 +15,58 @@ global:
     scale: true
   scorll_progress:
     bar: true
+  website_counter:
+    enable: false
 fontawesome: # select fontawesome versions you want to use, in order to reduce the loading time, select as few as possible
-    thin: false # use fontawesome thin version or not
-    light: false # use fontawesome light version or not
-    duotone: false # use fontawesome duotone version or not
-    sharp_solid: false # use fontawesome sharp-solid version or not
+  thin: false # use fontawesome thin version or not
+  light: false # use fontawesome light version or not
+  duotone: false # use fontawesome duotone version or not
+  sharp_solid: false # use fontawesome sharp-solid version or not
 home_banner:
-    title: Gino Detox
+  title: Gino Detox
+  subtitle: 
+    text: ['Loading ... ']
+    hitokoto:
+      enable: true
+      api: https://v1.hitokoto.cn?c=h&c=i&c=k&encode=json&charset=utf-8
+      show_author: true
+  social_links:
+    enable: true
+    links:
+      github: https://github.com/GinoWi
+navbar:
+  links:
+    Basic: 
+      path: /basic/
+      icon: fa-solid fa-graduation-cap
+    Computer:
+      path: /_computer
+      icon: fa-solid fa-computer
+    Music:
+      path: /_music
+      icon: fa-solid fa-music
+    Language:
+      path: /_language
+      icon: fa-solid fa-language
+    Tools:
+      path: /_tools
+      icon: fa-solid fa-screwdriver-wrench
+  search: 
+    enable: true
+home:
+  sidebar:
+    position: right
+    announcement: Do myself
+    home:
+    links:
+      Archives: # 显示的名称
+        path: /archives # 路径
+        icon: fa-regular fa-archive # 图标，可以为空
+      Tags: # 显示的名称
+        path: /tags # 路径
+        icon: fa-regular fa-tags # 图标，可以为空
+      Categories: # 显示的名称
+        path: /categories # 路径
+        icon: fa-regular fa-folder # 图标，可以为空
+footer:
+  start: 2025/12/4 00:00:00
