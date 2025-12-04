@@ -2,9 +2,11 @@ info:
   title: Gino Detox
   subtitle: 个人博客
   author: Gino Wei
-  url: codeord.com
+  url: https://codeord.com
 defaults: 
   avatar: /images/avatar.jpeg
+  logo: 
+  favicon: 
 colors:
   primary: #00BFFF
 global:
@@ -36,21 +38,14 @@ home_banner:
       github: https://github.com/GinoWi
 navbar:
   links:
-    Basic: 
-      path: /basic/
-      icon: fa-solid fa-graduation-cap
-    Computer:
-      path: /_computer
-      icon: fa-solid fa-computer
-    Music:
-      path: /_music
-      icon: fa-solid fa-music
-    Language:
-      path: /_language
-      icon: fa-solid fa-language
-    Tools:
-      path: /_tools
-      icon: fa-solid fa-screwdriver-wrench
+    Docs: 
+      icon: fa-solid fa-book
+      submenus:
+        Categories: /categories
+        Tags: /tags
+    Archives:
+      path: /archives
+      icon: fa-regular fa-archive
   search: 
     enable: true
 home:
@@ -70,3 +65,7 @@ home:
         icon: fa-regular fa-folder # 图标，可以为空
 footer:
   start: 2025/12/4 00:00:00
+articles:
+  copyright:
+    enable: true
+    default: This work is licensed under CC BY-NC-SA 4.0.
